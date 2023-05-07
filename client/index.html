@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Back End Assessment</title>
+  </head>
+  <body class="container">
+    <button id="complimentButton">Get a compliment</button>
+    <button id="fortuneButton">Get a fortune</button>
+    <div>
+      <h3>Add a Joke:</h3>
+      <input type="text" id="jokeInput" placeholder="Enter a joke" />
+      <button id="addJokeButton">Add Joke</button>
+    </div>
+
+    <div>
+      <h3>Change Joke:</h3>
+      <input type="text" id="newJokeInput" placeholder="Enter a new joke" />
+      <button id="changeJokeButton">Change Joke</button>
+    </div>
+
+    <div>
+      <h3>Delete Jokes:</h3>
+      <button id="deleteJokesButton">Delete Jokes</button>
+    </div>
+
+    <div>
+      <h3>Jokes:</h3>
+      <textarea id="jokesTextarea" rows="5" readonly></textarea>
+    </div>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
